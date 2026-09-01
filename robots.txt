@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arty-d.com/sitemap.xml
