@@ -470,6 +470,14 @@
     position:absolute; inset:0;
     background:linear-gradient(160deg, rgba(17,17,17,.15), rgba(17,17,17,.75));
   }
+  .work-figure.has-photo{
+    background-image:url('assets/images/service-scaffolding.jpg');
+    background-size:cover;
+    background-position:center;
+  }
+  .work-figure.has-photo::after{
+    background:linear-gradient(160deg, rgba(17,17,17,.05), rgba(17,17,17,.6));
+  }
   .work-figure svg{
     position:absolute; right:14px; bottom:14px;
     width:46px; height:46px;
@@ -763,7 +771,7 @@
         <div class="work-num">01</div>
         <div class="work-body">
           <div class="work-grid">
-            <div class="work-figure">
+            <div class="work-figure has-photo" role="img" aria-label="足場を組む職人たちの現場写真">
               <svg viewBox="0 0 48 48" fill="none" stroke-width="2">
                 <line x1="10" y1="6" x2="10" y2="42"/>
                 <line x1="26" y1="6" x2="26" y2="42"/>
