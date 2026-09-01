@@ -476,9 +476,9 @@
   .work-figure.has-photo::after{
     background:linear-gradient(160deg, rgba(17,17,17,.05), rgba(17,17,17,.6));
   }
-  .work-figure.photo-scaffolding{ background-image:url('assets/images/service-scaffolding.jpg'); }
-  .work-figure.photo-construction{ background-image:url('assets/images/service-construction.jpg'); }
-  .work-figure.photo-painting{ background-image:url('assets/images/service-painting.jpg'); }
+  .work-figure.photo-scaffolding{ background-image:url('../images/service-scaffolding.jpg'); }
+  .work-figure.photo-construction{ background-image:url('../images/service-construction.jpg'); }
+  .work-figure.photo-painting{ background-image:url('../images/service-painting.jpg'); }
   .work-body{
     grid-column:1 / -1;
   }
