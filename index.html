@@ -94,12 +94,19 @@
     display:flex; align-items:center; justify-content:space-between;
   }
   .logo{
-    display:flex; align-items:center;
+    display:flex; flex-direction:column; align-items:flex-start; gap:.4em;
   }
   .logo img{
     height:34px;
     width:auto;
     display:block;
+  }
+  .logo small{
+    font-family:var(--font-body);
+    font-weight:500;
+    font-size:.68rem;
+    letter-spacing:.2em;
+    color:var(--white);
   }
   .nav-links{
     display:flex; align-items:center; gap:2.4rem;
@@ -689,7 +696,7 @@
 
 <header class="site-header" id="siteHeader">
   <div class="wrap header-inner">
-    <a href="#top" class="logo"><img src="assets/images/logo.png" alt="ArTY株式会社 伝創"></a>
+    <a href="#top" class="logo"><img src="assets/images/logo.png" alt="ArTY株式会社 伝創"><small>株式会社 伝創</small></a>
     <nav class="nav-links">
       <a href="#about">ABOUT US</a>
       <a href="#service">SERVICE</a>
@@ -879,7 +886,7 @@
   <div class="wrap">
     <div class="footer-top">
       <div class="footer-brand">
-        <a href="#top" class="logo"><img src="assets/images/logo.png" alt="ArTY株式会社 伝創"></a>
+        <a href="#top" class="logo"><img src="assets/images/logo.png" alt="ArTY株式会社 伝創"><small>株式会社 伝創</small></a>
         <address>
           〒埼玉県春日部市備後東6-10-37<br>
           TEL <a href="tel:048-971-7263">048-971-7263</a> / FAX 048-971-7264<br>
