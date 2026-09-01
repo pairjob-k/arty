@@ -471,13 +471,15 @@
     background:linear-gradient(160deg, rgba(17,17,17,.15), rgba(17,17,17,.75));
   }
   .work-figure.has-photo{
-    background-image:url('assets/images/service-scaffolding.jpg');
     background-size:cover;
     background-position:center;
   }
   .work-figure.has-photo::after{
     background:linear-gradient(160deg, rgba(17,17,17,.05), rgba(17,17,17,.6));
   }
+  .work-figure.photo-scaffolding{ background-image:url('assets/images/service-scaffolding.jpg'); }
+  .work-figure.photo-construction{ background-image:url('assets/images/service-construction.jpg'); }
+  .work-figure.photo-painting{ background-image:url('assets/images/service-painting.jpg'); }
   .work-figure svg{
     position:absolute; right:14px; bottom:14px;
     width:46px; height:46px;
@@ -771,7 +773,7 @@
         <div class="work-num">01</div>
         <div class="work-body">
           <div class="work-grid">
-            <div class="work-figure has-photo" role="img" aria-label="足場を組む職人たちの現場写真">
+            <div class="work-figure has-photo photo-scaffolding" role="img" aria-label="足場を組む職人たちの現場写真">
               <svg viewBox="0 0 48 48" fill="none" stroke-width="2">
                 <line x1="10" y1="6" x2="10" y2="42"/>
                 <line x1="26" y1="6" x2="26" y2="42"/>
@@ -793,7 +795,7 @@
         <div class="work-num">02</div>
         <div class="work-body">
           <div class="work-grid">
-            <div class="work-figure">
+            <div class="work-figure has-photo photo-construction" role="img" aria-label="鉄骨・重量物を扱う建設現場の写真">
               <svg viewBox="0 0 48 48" fill="none" stroke-width="2">
                 <rect x="8" y="20" width="26" height="20"/>
                 <line x1="21" y1="20" x2="21" y2="8"/>
@@ -813,7 +815,7 @@
         <div class="work-num">03</div>
         <div class="work-body">
           <div class="work-grid">
-            <div class="work-figure">
+            <div class="work-figure has-photo photo-painting" role="img" aria-label="外壁を塗装する職人たちの現場写真">
               <svg viewBox="0 0 48 48" fill="none" stroke-width="2">
                 <rect x="10" y="8" width="14" height="10" rx="1"/>
                 <line x1="17" y1="18" x2="17" y2="34"/>
